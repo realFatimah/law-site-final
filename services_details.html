@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Details</title>
+   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="icon" href="./assets/Screenshot 2024-09-09 231114.png" type="image/x-icon">
+
+
+</head>
+<body>
+     <!-------------------------------- Navbar --------------------------------->
+
+     <nav class="bg-[#152527] p-4 sticky top-0 z-50 shadow-2xl" id="home">
+      <div class="container mx-auto flex items-center justify-between">
+          <!-- Logo -->
+          <a href="index.html" class="text-white text-2xl font-bold transform transition hover:scale-105 duration-300">
+              <img src="https://hellloexpert.com/tf/html/barristar-live/assets/images/logo/logo.png" alt="">
+          </a>
+  
+          <!-- Desktop Menu (centered) -->
+          <div class="hidden md:flex flex-1 justify-center space-x-8 mr-8">
+              <a href="index.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">Home</a>
+              <a href="about.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">About</a>
+              <a href="services.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">Services</a>
+              <a href="team.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">Our Team</a>
+              <a href="faqs.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">FAQs</a>
+          </div>
+  
+          <!-- Gradient Button -->
+          <a href="contact.html" class="hidden md:inline-block bg-gradient-to-r from-[#B59F65] to-[#D4C190] text-white text-lg font-bold px-6 py-2 rounded-full hover:from-[#D4C190] hover:to-[#B59F65] transition duration-300 mr-8 transform hover:scale-105 shadow-md">
+              Contact
+          </a>
+  
+          <!-- Mobile Menu Button -->
+          <button class="md:hidden text-white" id="menu-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+              </svg>
+          </button>
+      </div>
+  
+      <!-- Mobile Menu -->
+      <div class="hidden md:hidden" id="mobile-menu">
+          <div class="flex flex-col space-y-2 mt-2">
+              <a href="index.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">Home</a>
+              <a href="about.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">About</a>
+              <a href="services.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">Services</a>
+              <a href="team.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">Our Team</a>
+              <a href="faqs.html" class="nav-link text-white text-lg hover:text-[#B59F65] px-3 py-2 rounded">FAQs</a>
+          </div>
+      </div>
+  </nav>
+ 
+
+  
+ <!-- -------------------------- Hero Banner --------------------------------->  
+<section class="h-[60vh] flex items-center justify-center relative bg-cover bg-center" style="background-image: url(' https://img.freepik.com/premium-photo/statue-man-is-desk-with-sign-that-says-justice_273179-5141.jpg?ga=GA1.1.628343473.1726345421&semt=ais_hybrid');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 text-center text-white">
+      <h1 class="text-4xl font-bold sm:text-6xl mb-4 " data-aos="fade-up" data-aos-duration="1000">Real Estate Law</h1>
+      
+      
+    </div>
+    <hr>
+  </section>
+  
+
+ 
+
+
+
+   <!-- What We Offer Section -->
+<section class="py-16 px-6 md:px-12 bg-gray-100">
+  <div class="container mx-auto">
+    <div class="text-center mb-12">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#115e59]" data-aos="fade-up" data-aos-duration="1000">Real Estate Legal Services</h2>
+        <div class="w-36 h-1 bg-[#B59F65] mx-auto mt-4"></div>
+      </div>
+      <p class="mt-4 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        We provide comprehensive legal services for all aspects of real estate law.
+      </p>
+    </div>
+
+    <!-- Description Section with Icons -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+      <div>
+        <div class="text-center mb-16">
+          <h3 class="text-2xl font-bold text-[#115e59] mb-4">What We Offer</h3>
+          <div class="w-24 h-1 bg-[#B59F65] mx-auto"></div>
+        </div>
+        <p class="  mb-6" data-aos="fade-right" data-aos-duration="1000">
+          Our Real Estate Law practice covers property transactions, zoning issues, leasing agreements, and real estate litigation. Whether you're buying or selling property, our legal experts will guide you through the process.
+        </p>
+        
+        <!-- Service List with Icons -->
+        <ul class="space-y-4  ">
+          <li class="flex items-start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+            <i class="fas fa-file-signature text-[#B59F65]  text-3xl mr-3"></i>
+            <span>Property transactions and deeds</span>
+          </li>
+          <li class="flex items-start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            <i class="fas fa-building text-[#B59F65] text-3xl mr-3"></i>
+            <span>Commercial leasing and contracts</span>
+          </li>
+          <li class="flex items-start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+            <i class="fas fa-map-marked-alt text-[#B59F65] text-3xl mr-3"></i>
+            <span>Zoning and land use law</span>
+          </li>
+          <li class="flex items-start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+            <i class="fas fa-shield-alt text-[#B59F65] text-3xl mr-3"></i>
+            <span>Title issues and disputes</span>
+          </li>
+          <li class="flex items-start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <i class="fas fa-gavel text-[#B59F65] text-3xl mr-3"></i>
+            <span>Real estate litigation</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Image Section -->
+      
+        <img src="https://img.freepik.com/premium-photo/gavel-house-money-legal-financial-implications_632498-11084.jpg?ga=GA1.1.628343473.1726345421&semt=ais_hybrid" alt="Real Estate" class="rounded-lg shadow-lg" data-aos="fade-left" data-aos-duration="1000">
+        <!-- Optional Overlay Effect on Image -->
+ 
+    </div>
+
+    
+  </div>
+</section>
+
+
+
+<!----------------------------- Pricing Section ----------------------------->
+
+<section class="  py-16" id="pricing">
+  <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#115e59]" data-aos="fade-up" data-aos-duration="1000">Our Pricing Plans</h2>
+          <p class="mt-4 text-gray-600" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Choose the plan that best suits your needs.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Basic Package -->
+          <div class="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200" data-aos="fade-up" data-aos-duration="1000">
+              <h3 class="text-xl font-semibold text-[#115e59] mb-4">Basic Package</h3>
+              <p class="text-gray-600 mb-4">Basic features to get you started.</p>
+              <p class="text-2xl font-bold text-[#115e59] mb-4">$99/month</p>
+              <ul class="text-left mb-6">
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 1</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 2</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 3</li>
+              </ul>
+              <a href="#" class="inline-block bg-gradient-to-r from-[#B59F65] to-[#D4C190] text-white text-lg font-bold px-6 py-3 rounded-full hover:from-[#D4C190] hover:to-[#B59F65] transition duration-300 transform hover:scale-105">
+                  Get Started
+              </a>
+          </div>
+          <!-- Standard Package -->
+          <div class="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200" data-aos="fade-up" data-aos-duration="1000">
+              <h3 class="text-xl font-semibold text-[#115e59] mb-4">Standard Package</h3>
+              <p class="text-gray-600 mb-4">Includes everything in the Basic Package plus more.</p>
+              <p class="text-2xl font-bold text-[#115e59] mb-4">$199/month</p>
+              <ul class="text-left mb-6">
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 1</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 2</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 3</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 4</li>
+              </ul>
+              <a href="#" class="inline-block bg-gradient-to-r from-[#B59F65] to-[#D4C190] text-white text-lg font-bold px-6 py-3 rounded-full hover:from-[#D4C190] hover:to-[#B59F65] transition duration-300 transform hover:scale-105">
+                  Get Started
+              </a>
+          </div>
+          <!-- Premium Package -->
+          <div class="bg-white p-6 rounded-lg shadow-lg text-center border border-gray-200" data-aos="fade-up" data-aos-duration="1000">
+              <h3 class="text-xl font-semibold text-[#115e59] mb-4">Premium Package</h3>
+              <p class="text-gray-600 mb-4">All features included for comprehensive support.</p>
+              <p class="text-2xl font-bold text-[#115e59] mb-4">$299/month</p>
+              <ul class="text-left mb-6">
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 1</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 2</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 3</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 4</li>
+                  <li class="mb-2 flex items-center"><i class="fas fa-check-circle text-[#B59F65] mr-2"></i>Feature 5</li>
+              </ul>
+              <a href="#" class="inline-block bg-gradient-to-r from-[#B59F65] to-[#D4C190] text-white text-lg font-bold px-6 py-3 rounded-full hover:from-[#D4C190] hover:to-[#B59F65] transition duration-300 transform hover:scale-105">
+                  Get Started
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  
+ 
+
+
+<!--------------------------------------------- footer section --------------------------->
+
+<footer class="bg-[#152527] text-white">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-12 p-8">
+    <!-- Company Logo and Social Links -->
+    <div>
+      <a href="index.html"><img src="https://hellloexpert.com/tf/html/barristar-live/assets/images/logo/logo.png" alt="Company Logo" class="mb-4 transform transition hover:scale-105 duration-300"></a>
+      <p class="text-sm mb-4">Your Company is committed to delivering the best products and services.</p>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-[#B59F65]">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="hover:text-[#B59F65]">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="hover:text-[#B59F65]">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="hover:text-[#B59F65]">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Useful Links -->
+    <div>
+      <h2 class="text-lg font-bold mb-4">Useful Links</h2>
+      <ul class="space-y-2">
+        <li><a href="about.html" class="hover:text-[#B59F65]">About</a></li>
+        <li><a href="services.html" class="hover:text-[#B59F65]">Services</a></li>
+        <li><a href="team.html" class="hover:text-[#B59F65]">Team</a></li>
+        <li><a href="faqs.html" class="hover:text-[#B59F65]">FAQs</a></li>
+      </ul>
+    </div>
+
+    <!-- Office Info -->
+    <div>
+      <h2 class="text-lg font-bold mb-4">Office Info</h2>
+      <ul class="space-y-2">
+        <p class="text-sm hover:text-[#B59F65]">1234 Street Name, City, Country</p>
+        <p class="text-sm hover:text-[#B59F65]">Phone: (123) 456-7890</p>
+        <p class="text-sm hover:text-[#B59F65]">Email: info@yourcompany.com</p>
+      </ul>
+    </div>
+
+    <!-- Subscribe Now -->
+    <div>
+      <h2 class="text-lg font-bold mb-4">Subscribe Now</h2>
+      <form>
+        <input type="email" class="w-full p-2 rounded bg-gray-700 text-white mb-2" placeholder="Enter your email">
+        <button type="submit" class="w-full bg-gradient-to-r from-[#B59F65] to-[#D4C190] hover:from-[#D4C190] hover:to-[#B59F65] transition duration-300 ease-in-out transform hover:scale-110 text-white py-2 rounded">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <hr class="mx-12">
+  <div class="mt-8 text-center text-sm text-gray-400 pb-4">
+    &copy; 2024 Your Company. All rights reserved.
+  </div>
+</footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
